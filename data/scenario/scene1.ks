@@ -187,10 +187,10 @@
 きゃーーーーッッ！！！！[p]
 [_tb_end_text]
 
-[chara_show  name="サキ"  time="1000"  wait="true"  storage="chara/2/josei_06.png"  width="400"  height="1100"  top="40"  ]
+[chara_show  name="サキ"  time="1000"  wait="true"  storage="chara/2/josei_06.png"  width="400"  height="1100"  top="-69"  left="132"  reflect="false"  ]
 [tb_start_text mode=1 ]
-#メンヘラ彼女
-だれ・・その女・・[p]
+#たるとたたん
+だれ・・その女・・？[p]
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
@@ -418,6 +418,7 @@
 [chara_hide  name="ミカ"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_image_hide  time="1000"  ]
 [bg  time="1000"  method="crossfade"  storage="title.jpg"  ]
+[tb_ptext_show  x="552"  y="215"  size="50"  color="0xfcfcff"  time="1000"  anim="false"  face="fantasy"  text="fin"  edge="0x6a7491"  shadow="undefined"  ]
 [tb_ptext_show  x="276"  y="272"  size="50"  color="0xfcfcff"  time="1000"  anim="false"  face="fantasy"  text="-忘れたくない淡い思い出-"  edge="0x6a7491"  shadow="undefined"  ]
 [l  ]
 [tb_ptext_hide  time="1000"  ]
@@ -429,7 +430,7 @@
 [tb_ptext_show  x="269"  y="281"  size="50"  color="0xfcfcff"  time="1000"  anim="false"  face="fantasy"  text="「あなたなりのエモい写真」"  edge="0x6a7491"  shadow="undefined"  ]
 [l  ]
 [tb_ptext_hide  time="1000"  ]
-[tb_ptext_show  x="154"  y="296"  size="37"  color="0xfcfcff"  time="1000"  anim="false"  face="fantasy"  text="※続きは、次の場所へ行ってから再プレイしてください。"  edge="0x6a7491"  shadow="undefined"  ]
+[tb_ptext_show  x="125"  y="296"  size="37"  color="0xfcfcff"  time="1000"  anim="false"  face="fantasy"  text="※物語の続きは、次の場所へ行ってから再プレイしてください。"  edge="0x6a7491"  shadow="undefined"  ]
 [tb_ptext_hide  time="1000"  ]
 [jump  storage="scene1.ks"  target="*5-common"  ]
 *5-no
